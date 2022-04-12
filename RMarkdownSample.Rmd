@@ -1,0 +1,16 @@
+---
+title: 'Rose: Markdown Sample'
+output:
+  html_document: default
+  word_document: default
+ta=P  pdf_document: default
+---
+
+## Plant Growth 
+
+```{r PlantGrowth}
+summary(PlantGrowth)
+plot(PlantGrowth)
+hist(PlantGrowth$weight, main="Histogram of Plant Growth")
+```
+
